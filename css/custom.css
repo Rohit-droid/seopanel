@@ -1,0 +1,294 @@
+@font-face {
+    font-family: TTNorms;
+    src: url("./../fonts/TTNorms-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: TTNorms;
+    font-weight: bold;
+    src: url("./../fonts/TTNorms-Bold.otf") format("opentype");
+}
+
+.SectionHeader{
+    margin: 50px 0 20px 0 !important;
+    padding: 0px !important;
+}
+
+.pagingdiv{
+    display: none;
+}
+
+.SectionHeader h3{
+    color: #0033A0; 
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0px;
+    padding : 0px;
+}
+
+.search input,select{
+    padding: 0px 0px 0px 10px;
+    height: 40px;
+    border:solid 1px #ccc;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #3C3C3C;
+    line-height: 16px;
+}
+
+option *{
+    padding: 0px 0px 0px 10px;
+    height: 40px;
+    border:solid 1px #ccc;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #3C3C3C;
+    line-height: 16px;
+}
+
+#custom-dashboard-heading-rr{
+    margin: 0px;
+    width: 100%;
+}
+
+#custom-dashboard-heading-rr tr{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#custom-dashboard-heading-rr input,select{
+    width: 100%;
+}
+
+#custom-dashboard-heading-rr td{
+    margin: auto 10px;
+}
+
+#custom-dashboard-heading-rr td:last-child{
+    margin: auto 0;
+}
+
+#custom-dashboard-heading-rr td:first-child{
+    margin-left: 0px;
+}
+
+#cust_tab th, .list .listHead td, .list .listHead th {
+    text-align: center;
+    background-color: #F8F8F8;
+    font-weight: bold;
+    color: #3C3C3C;
+    font-size : 14px;
+}
+
+#cust_tab th#head, .list th#head{
+    text-align: center;
+    color: #3C3C3C;
+    font-size: 14px;
+    font-weight: bold;
+    background-color : #F8F8F8;
+}
+
+#cust_tab tbody tr:nth-child(odd) td {background: #ffffff}
+#cust_tab tbody tr:nth-child(even) td {background: #F8F8F8}
+
+input[type=checkbox] {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    -webkit-appearance: none;
+    outline: 0;
+    margin: auto;
+}
+
+input[type=checkbox]:checked {
+    background-image: url('../images/Icons/check-mark.svg');
+}
+
+input[type=checkbox]:not(:checked) {
+    background-image: url('data:image/svg+xml;utf8,<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"> <path id="checkbox-9-icon" d="M391,121v270H121V121H391z M431,81H81v350h350V81z"></path> </svg>');
+}
+
+.auditor-Page-RR td{
+    text-align: center;
+}
+
+
+.auditor-Page-RR td a{
+    color: #0033A0;
+    text-decoration: none;
+    font-size: 14px !important;
+}
+
+.auditor-Page-RR .actionSec td a{
+    color: white;
+}
+
+.container-fluid nav{
+    margin-left: 17%;
+}
+
+#menu{
+    border-top: none;
+    border-right: 1px solid #CFCFCF;
+}
+
+ #menu li {
+    background-color: #ffffff;
+}
+ #navbarLeftMenu {
+    background: #ffffff;
+}
+ #navbarLeftMenu > ul{
+    background: #ffffff;
+    
+}
+
+.tab {
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #CFCFCF;
+    color: #808080;
+}
+
+#subui li {
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    margin: 10px auto;
+    padding-left: 20%;
+}
+
+#custom_audit_report_RR tr:first-child th{
+    font-weight: normal;
+    font-size: 14px;
+    color : #3C3C3C;
+    line-height: 16px;
+    text-align : left;
+    padding-bottom :10px;
+}
+
+#custom_audit_report_RR tr:last-child td{
+    padding-right: 20px;
+}
+
+#audit_report_project_url_RR{
+    margin-bottom: 50px;
+}
+
+#audit_report_project_url_RR div{
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    width: 100%;
+}
+
+#cts-link{
+    color:#0033A0; 
+    font-weight:bold;
+    font-size:14px;
+    padding-left:20px;
+    text-align:left;
+}
+
+
+#cts-link > a{
+    color:#0033A0;
+}
+
+.tool-sidebar-RR * {
+    font-size: 14px;
+}
+
+.calender-icon-RR{
+    background: url(../images/Icons/calendar.svg) no-repeat;
+    background-position-x: 95%;
+    background-position-y: 40%;
+}
+
+.tool-sidebar-RR .tab > span::before{
+    content: none;
+}
+
+.tool-sidebar-RR span#img1{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background: url(../images/Icons/1.png) no-repeat;
+    background-position: center;
+}
+
+.tool-sidebar-RR span#img2{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background: url(../images/Icons/3.png) no-repeat;
+    background-position: center;
+}
+
+.tool-sidebar-RR span#img3{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background: url(../images/Icons/4.png) no-repeat;
+    background-position: center;
+}
+
+.tool-sidebar-RR span#img4{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background: url(../images/Icons/5.png) no-repeat;
+    background-position: center;
+}
+
+.tool-sidebar-RR span#img5{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background: url(../images/Icons/6.png) no-repeat;
+    background-position: center;
+}
+
+.tool-sidebar-RR span#img6{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background: url(../images/Icons/7.png) no-repeat;
+    background-position: center;
+}
+
+.tool-sidebar-RR span#img7{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background: url(../images/Icons/8.png) no-repeat;
+    background-position: center;
+}
+
+.tool-sidebar-RR span#img8{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background: url(../images/Icons/2.png) no-repeat;
+    background-position: center;
+}
+
+.tool-sidebar-RR span#img9   {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background: url(../images/Icons/9.png) no-repeat;
+    background-position: center;
+}
+
+.tool-sidebar-RR #subui > li > a::before{
+    content: none;
+}
+
+.tool-sidebar-RR #subui > li > a{
+    margin: 10px 0 10px 0%; 
+}
